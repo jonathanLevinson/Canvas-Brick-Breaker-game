@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+#toolbar{
+    margin:auto;
+    margin-top:10px;
+    width:70vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#toolbar label{
+    margin-right:30px;
+}
+#full{
+    margin-right:30px;
+}
+#canvas {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5vh;
+    box-shadow: 3px 3px 5px #000;
+}

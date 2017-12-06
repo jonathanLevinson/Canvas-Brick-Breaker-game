@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="brickBreaker.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="toolbar">
+            <input type="checkbox" id="musicButton" checked>
+            <label for="musicButton">Music</label>
+            <input type="checkbox" id="effectsButton" checked>
+            <label for="effectsButton">Effects</label>
+            <input type="button" value="Full Screen" id="full">
+            <input type="button" value="Restart Game" id="reset">
+        </div>
+    </header>
+    <canvas id="canvas" width="960" height="600" style="border: black solid 2px; cursor: none"></canvas>
+
+    <audio src="sound/Bit Rush_ Arcade Ahri  Login Screen - League of Legends.mp3" id="song1" type="audio/mpeg"></audio>
+    <audio src="sound/Bit Rush  Login Screen - League of Legends.mp3" id="song2" type="audio/mpeg"></audio>
+    <audio src="sound/Dimitri Vegas & Like Mike vs. W&W - Arcade (Extended Mix).mp3" id="song3" type="audio/mpeg"></audio>
+
+    <audio src="sound/brick.mp3" id="brickHit"></audio>
+    <audio src="sound/gameover.mp3" id="gameOver"></audio>
+    <audio src="sound/go.mp3" id="wallHit"></audio>
+    <audio src="sound/levelup.mp3" id="finishedLevel"></audio>
+    <audio src="sound/loselife.mp3" id="loseLife"></audio>
+    <audio src="sound/paddle.mp3" id="paddleHit"></audio>
+
+    <script src="bricks.js"></script>
+    <script src="levels.js"></script>
+    <script src="brickBreaker.js"></script>
+</body>
+</html>
